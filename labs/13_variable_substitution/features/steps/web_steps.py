@@ -42,3 +42,4 @@ def step_impl(context, search_text):
     element = context.driver.find_element(By.ID, 'search_results')
     assert search_text not in element.text
 
+
